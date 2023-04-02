@@ -72,9 +72,23 @@ Dan = 32
 # In this example the variable called Dan is assigned to `32`. 
 # When the method digits is called on the variable it will display and array of the digits: `[3, 2]`
 Dan.digits 
+# The succ method, which stands for successor, is called on the interger object `George`
+# This method when called upon an integer will increase it's value by 1.
+# The example below will return with the value `26`
+George.succ
+
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+Grades1 = [98, 72, 88, 80]
+Grades2 = [89, 90, 87, 78]
+# The length method will call on the array `Grades1`. 
+# The method will return the amount of elements that are stored in the called array.
+Grades1.length
+# the reverse each method will call on the array `Grades2`
+# The method will return all elements in the reverse order that they were saved in the array.
+Grades2.reverse_each
