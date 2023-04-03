@@ -35,7 +35,7 @@ custom_greeting("Sean")
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
 def greet_person(first, middle, last)
-    p "His name is #{first}, #{middle}, #{last}"
+    p "His name is #{first}, #{middle}, #{last}."
 end
 
 greet_person("John", "Jacob", "Jingle")
