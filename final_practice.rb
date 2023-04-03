@@ -20,14 +20,17 @@ p greeting
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
 def custom_greeting(name)
-    p "What's up #{name}"
+    p "What's up #{name}!?"
 end
 
 custom_greeting("Sean")
 
 # What is the return value of your method?
+    #A: The return value of the method will print the passage "what's up" with a string to add a name at the end of the passage
 # How many arguments did you pass your method?
+    #A: 1 argument passed through my method
 # What data type was your argument(s)?
+    #A: the data type of my argument is a string
 
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
@@ -40,24 +43,28 @@ greet_person("John", "Jacob", "Jingle")
 
 
 # What is the return value of your method?
+    #A: The return value will print the passage "his name is" followed by 3 dynamic string variables labled first, middle, and last.
 # How many arguments did you pass your method?
+    #A: 3 arguments passed through my method
 # What data type was your argument(s)?
+    #A: All the arguments are strings data types.
 
 
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
+
 def squaring_numbers(number)
-    number ** 2 
+   p number ** 2, "is the square of #{number}"
 end
 
-p squaring_numbers(2) 
-
-p "is the square of #{number}"
-
+squaring_numbers(3) 
 
 # What is the return value of your method?
+    #A: The return value of my method is the square of the integer parameter followed by the statement "is the square of" and a restatement of the parameter.
 # How many arguments did you pass your method?
+    #A: 1 argument passed through my method.
 # What data type was your argument(s)?
+    #A the argument was an integer data type.
 
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
