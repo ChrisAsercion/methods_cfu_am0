@@ -70,12 +70,13 @@ squaring_numbers(3)
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
 def check_stock(number, product)
-    if number == 4
+    if number >= 4
         p "#{product} is stocked"
-    elsif number >= 2 && number <= 3
+    elsif number >= 1 && number <= 3
         p "#{product} - running LOW" 
     else
         p "#{product} OUT of stock"
+    end
 end
 
 
